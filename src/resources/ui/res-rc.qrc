@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/visibility.svg</file>
+    <file>icons/visibility_off.svg</file>
+    <file>icons/right_sealing.svg</file>
+    <file>icons/left_sealing.svg</file>
+    <file>icons/folder_open.svg</file>
+    <file>icons/add.svg</file>
+    <file>icons/calculate.svg</file>
+    <file>icons/close.svg</file>
+    <file>icons/content_paste.svg</file>
+    <file>icons/create.svg</file>
+    <file>icons/remove.svg</file>
+    <file>icons/cut.svg</file>
+    <file>icons/delete.svg</file>
+    <file>icons/edit.svg</file>
+    <file>icons/exit_to_app.svg</file>
+    <file>icons/File.svg</file>
+    <file>icons/file_copy.svg</file>
+    <file>icons/fullscreen.svg</file>
+    <file>icons/fullscreen_exit.svg</file>
+    <file>icons/help.svg</file>
+    <file>icons/help_about.svg</file>
+    <file>icons/minimize.svg</file>
+    <file>icons/open.svg</file>
+    <file>icons/print.svg</file>
+    <file>icons/redo.svg</file>
+    <file>icons/save.svg</file>
+    <file>icons/save_as.svg</file>
+    <file>icons/undo.svg</file>
+    <file>icons/upload.svg</file>
+  </qresource>
+</RCC>
