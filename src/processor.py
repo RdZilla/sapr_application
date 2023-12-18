@@ -5,7 +5,7 @@ import numpy as np
 def create_matrix_a(input_number_of_knots: int, list_length: list, list_width: list, list_young_modulus: list,
                     value_left_sealing: bool, value_right_sealing: bool) -> np.core.ndarray:
     """
-    A function for creating a global reaction matrix
+    The function for creating a global reaction matrix
     :param input_number_of_knots: matrix size based on the number of knots
     :param list_length: List of rods' lengths
     :param list_width: List of rods' areas
@@ -46,7 +46,7 @@ def create_matrix_a(input_number_of_knots: int, list_length: list, list_width: l
 def create_vector_b(input_number_of_knots: int, list_length: list, list_loads: list, dict_powers: dict,
                     value_left_sealing: bool, value_right_sealing: bool) -> np.ndarray:
     """
-    A function for creating a global reaction vector
+    The function for creating a global reaction vector
     :param input_number_of_knots: vector size based on the number of knots
     :param list_length: List of rods' lengths
     :param list_loads: List of loads on rods
@@ -90,7 +90,7 @@ def calc_delta(input_list_of_length: list, input_list_of_width: list, input_list
                input_list_of_young_modulus: list, input_dict_powers: dict,
                input_left_sealing: bool, input_right_sealing: bool) -> np.core.ndarray:
     """
-    A function for creating a global displacement vector
+    The function for creating a global displacement vector
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_loads: List of loads on rods
@@ -120,7 +120,7 @@ def nx_equation(input_list_of_length: list, input_list_of_width: list, input_lis
                 input_left_sealing: bool, input_right_sealing: bool,
                 input_rod_number: int = None, input_value_x: float = None) -> (list, np.float64):
     """
-    A function for calculating longitudinal forces at nodes and at certain points of x
+    The function for calculating longitudinal forces at nodes and at certain points of x
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_loads: List of loads on rods
@@ -189,7 +189,7 @@ def ux_equation(input_list_of_length: list, input_list_of_width: list, input_lis
                 input_left_sealing: bool, input_right_sealing: bool,
                 input_rod_number: int = None, input_value_x: float = None) -> (list, np.float64):
     """
-    A function for calculating movements at nodes and at certain points x
+    The function for calculating movements at nodes and at certain points x
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_loads: List of loads on rods
@@ -263,7 +263,7 @@ def sgx_equation(input_list_of_length: list, input_list_of_width: list, input_li
                  input_left_sealing: bool, input_right_sealing: bool,
                  input_rod_number: int = None, input_value_x: float = None) -> (list, np.float64):
     """
-    A function for calculating normal tensions at nodes and at certain points of x
+    The function for calculating normal tensions at nodes and at certain points of x
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_loads: List of loads on rods

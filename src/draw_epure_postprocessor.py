@@ -8,7 +8,7 @@ def draw_epure(input_list_of_length: list, input_list_of_width: list, input_list
                bg_color: str = '#fff0ee', window_length: int = 800, window_width: int = 600,
                flag_labels: bool = True) -> Image.Image:
     """
-    *Text, that should descriptions function*
+    The function of drawing a epure in png format (for the postprocessor tab)
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_young_modulus: List of rods' young modulus values

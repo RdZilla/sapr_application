@@ -8,7 +8,7 @@ def draw_picture(input_list_of_length: list, input_list_of_width: list, input_li
                  window_width: int = 600, flag_labels: bool = True) -> Image.Image:
 
     """
-    A function for displaying a drawing of rods, loads and forces on the preprocessor tab
+    The function of drawing a picture in png format (for the preprocessor tab)
     :param input_list_of_length: List of rods' lengths
     :param input_list_of_width: List of rods' areas
     :param input_list_of_loads: List of loads on rods
